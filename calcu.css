@@ -1,0 +1,18 @@
+.body{
+   text-align: center;
+   
+     width: 200px;
+    height: 400px; 
+}
+
+#button-numbers{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+/* #value{
+display: flex;
+
+width: 10px;
+height: px;
+} */
