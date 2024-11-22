@@ -9,31 +9,43 @@
 <body>
 
     <div class="body">
+        <button id="color-change" onclick="color-change()">color</button>
     <div id="display">
-    <input  id="values" />
+        <p>Calcu</p>
+        
+    <input type="button" id="values" >
    </div>
 
    <div id="button-numbers">
-    <button onclick="AllClear()" id="value">AC</button>
-    <button onclick="Delete()" id="value">del</button>
-    <button  onclick="valueofnumbers('.')" id="value">.</button>
-    <button onclick="sumof()" id="value">=</button>
-    
+    <button onclick="AllClear()">AC</button>
+    <button onclick="Delete()">del</button>
+    <button  onclick="valueofnumbers('.')">.</button>
+    <button onclick="valueofnumbers('+')">+</button>
+   
 
-    <button onclick="valueofnumbers('1')" id="value">1</button>
-    <button onclick="valueofnumbers('2')" id="value">2</button>
-    <button onclick="valueofnumbers('3')" id="value">3</button>
-    <button  onclick="valueofnumbers('/')" id="value">/</button>
+    <button onclick="valueofnumbers('7')">7</button>
+    <button onclick="valueofnumbers('8')">8</button>
+    <button onclick="valueofnumbers('9')">9</button>
+    <button onclick="valueofnumbers('-')">-</button>
+   
 
-    <button onclick="valueofnumbers('4')" id="value">4</button>
-    <button onclick="valueofnumbers('5')" id="value">5</button>
-    <button onclick="valueofnumbers('6')" id="value">6</button>
-    <button onclick="valueofnumbers('+')" id="value">+</button>
+    <button onclick="valueofnumbers('4')">4</button>
+    <button onclick="valueofnumbers('5')">5</button>
+    <button onclick="valueofnumbers('6')">6</button>
+    <button  onclick="valueofnumbers('/')">/</button>
+
+    <button onclick="valueofnumbers('1')">1</button>
+    <button onclick="valueofnumbers('2')">2</button>
+    <button onclick="valueofnumbers('3')">3</button>
+    <button onclick="valueofnumbers('*')">*</button>
     
-    <button onclick="valueofnumbers('7')" id="value">7</button>
-    <button onclick="valueofnumbers('8')" id="value">8</button>
-    <button onclick="valueofnumbers('9')" id="value">9</button>
-    <button onclick="valueofnumbers('-')" id="value">-</button>
+    
+    
+    <button onclick="valueofnumbers('0')">0</button>
+    <button onclick="valueofnumbers('00')">00</button>
+    <button onclick=" off()">OFF</button>
+    <button onclick="sumof()">=</button>
+    
     
     
     

@@ -20,9 +20,17 @@ function Delete(){
 
 function sumof(){
     try{
+        
         input.value = eval(input.value)
     }
     catch{
         input.value = "Text Erorr";
     }
+}
+function off(){
+    alert("Exit For Your Self")
+}
+
+function color-change(){
+    
 }
